@@ -1,5 +1,5 @@
    
-   @media screen and (max-width: 500px){
+   @media screen and (max-width: 360px){
    
     header{
         width: 100%;
@@ -35,6 +35,16 @@
     .right1{
         width: 100% !important;
     }
+    .div2{
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 150px !important;
+    }
+    .div3{
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 300px !important;
+    }
     .div4{
         width: 100% !important;
         height: 1100px !important;
@@ -63,9 +73,9 @@
 
     .div5{
         width: 100% !important;
-        height: 2000px !important;
+        height: 1500px !important;
         flex-direction: column;
-        margin-top: 1000px !important;
+        margin-top: 500px !important;
     }
     .section4{
         width: 100% !important;
