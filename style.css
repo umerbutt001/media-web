@@ -1,21 +1,21 @@
    
   
  
-  
   header{
     background-image: url(images/pic1.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0;
+    
   }
-.nav{
+/* .nav{
     width: 100%;
     height: 80px;
     display: flex;
     z-index: 1;
-  }
-  ul{
+  } */
+  /* ul{
     display: flex;
     margin-top: 30px;
     margin-left: 350px;
@@ -73,7 +73,7 @@
   }
   .drop:hover .dropdown-content1 {
     display: block;
-  }
+  } */
 
 
   .main{
@@ -83,6 +83,7 @@
     position: absolute;
     top: 0;
     width: 99%;
+    justify-self: flex-start;
   }
   .main2{
     margin-top: 150px;
@@ -278,37 +279,212 @@
   }
 
 
+  #h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 255, 0.805);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 130px;
+  }
+  [class^=button]{
+     background-color: lightblue;
+     height: 30px;
+     width: 5%;
+     border-radius: 20px;
+     border: none;
+  }
+  .button:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+  }
+  
+
+  .div7{
+    margin-top: 130px;
+    width: 90%;
+    min-height: 1100px;
+   
+    justify-self: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .top{
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+  .section9{
+    margin-top: 20px
+  }
+  .mid{
+    width: 22%;
+    
+  }
+  .center{
+    width: 22%;
+    
+  }
+  .end{
+    width: 22%;
+  }
+
+
+  .div8{
+    margin-top: 100px;
+    height: 700px;
+    width: 100%;
+    /* background-color: rgba(245, 222, 179, 0.37); */
+    background-color: rgba(128, 128, 128, 0.068); 
+  }
+  
+  #h6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 255, 0.805);
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 6;
+  }  
+  .head{
+     width: 100%;
+     height: 200px; 
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: -50px;
+  }
+  #p6{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #span5{
+    font-size: 25px;
+    line-height: 3;
+    color: black;
+  }
+  #span6{
+    color: blue;
+    line-height: 3;
+  }
+  .foot{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+
+ .div9{
+  margin-top: 100px;
+  height: 700px;
+  width: 100%;
+  /* background-color: rgba(245, 222, 179, 0.37); */
+  background-color: rgba(128, 128, 128, 0.068); 
+ }
+  #h7{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 255, 0.805);
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 4;
+ }  
+ .div10{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  height: 500px;
+  margin-top: -30px;
+ }
+ .div11{
+  margin-top: 20px;
+  
+  width: 25%;
+  height: 450px;
+  background-color: white;
+ }
+ .div12{
+  margin-top: 20px;
+  
+  width: 25%;
+  height: 450px;
+  background-color: white;
+ }
+ .div13{
+  margin-top: 20px;
+  
+  width: 25%;
+  height: 450px;
+  background-color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   @media only screen and (max-width: 360px){
-   
+  
     header{
         width: 100%;
+        justify-content: flex-start;
     }
-    .nav{
+    /* .nav{
         width: 100%;
         
-    }
+    } */
     .main{
-        width: 100%;
+        width: 95%;
+        justify-content: flex-start;
     }
     .container{
         width: 100% ;
         height: 750px ;
         flex-direction: column;
+        justify-self:flex-start ;
     }
     .left{
         width: 100% ;
-        
+        justify-self: flex-start;
     }
     .right{
         width: 100% ;
+        justify-self: flex-start;
+    }
+    #p2{
+      margin-left: 0;
+      margin-top: 10px;
     }
     .container1{
         width: 100% ;
         height: 750px ;
         flex-direction: column;
+        justify-content: flex-start;
     }
     .left1{
         width: 100% ;
@@ -317,9 +493,18 @@
     .right1{
         width: 100% ;
     }
+    #p4{
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+    .start{
+      margin-left: 0;
+      
+    }
     .div2{
         width: 100% ;
         text-align: center ;
+        justify-content: flex-start;
         margin-top: 150px;
     }
     .div3{
@@ -332,7 +517,7 @@
         height: 1100px ;
         flex-direction: column;
         margin-top: 100px;
-       
+       justify-content: flex-start;
     }
     .section{
         width: 100% ;
@@ -358,7 +543,7 @@
         height: 1500px ;
         flex-direction: column;
         margin-top: 500px ;
-        
+        justify-content: flex-start;
     }
     .section4{
         width: 100% ;
@@ -378,5 +563,65 @@
         margin-right: 0 ;
         margin-top: 10px;
     }
+
+    .div7{
+      width: 100%;
+      flex-direction: column;
+    }
+    .top{
+      width: 100%;
+    }
+    .mid{
+      width: 100%;
+    }
+    .center{
+      width: 100%;
+    }
+    .end{
+      width: 100%;
+    }
+    .button{
+      width: 20%;
+    }
+
+
+    .div8{
+      width: 100%;
+      height: 1550px;
+    } 
+    .head{
+     width: 100%;
+     flex-direction: column;
+     height: 620px;
+    }
+    .foot{
+      margin-top: 50px;
+      width: 100%;
+      flex-direction: column;
+      height: 620px;
+     }
+
+
+     .div9{
+      width: 100%;
+      height: 1500px;
+     }
+     .div10{
+      width: 100%;
+      height: 1450px;
+      flex-direction: column;
+     }
+     .div11{
+      width: 98%;
+     }
+     .div12{
+      margin-top: 50px;
+      width: 98%;
+     }
+     .div13{
+      margin-top: 50px;
+      width: 98%;
+     }
+
 
   }
